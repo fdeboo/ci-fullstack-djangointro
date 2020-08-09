@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Item(models.Model):
     # null=false prevents items from being created without a name programatically
